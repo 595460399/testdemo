@@ -14,7 +14,7 @@ data = [
 ]
 
 
-@app.route('/')
+@app.route('/apis')
 def index():
     return jsonify(data)
 
